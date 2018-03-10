@@ -18,7 +18,7 @@
 
     ```sh
     > git clone https://github.com/juangesino/palette.git
-  > cd palette
+    > cd palette
     ```
 
 0. **Install Dependencies**
