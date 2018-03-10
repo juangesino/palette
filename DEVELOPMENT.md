@@ -1,5 +1,11 @@
 # Develop Palette
 
+## To-Do
+- [x] Add and remove colors
+- [ ] Export colors CSV
+- [ ] Import colors CSV
+- [ ] Add and remove gradients
+
 ## Getting Started
 
 0. **Install Meteor**
