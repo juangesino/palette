@@ -1,0 +1,19 @@
+{
+  "electron": {
+    "name": "Palette",
+    "icon": {
+      "darwin": "private/icon.png.icns"
+    },
+    "version": "0.0.1",
+    "description": "An app to store all your favourite colours.",
+    "downloadUrls": {
+      "darwin": "https://github.com/juangesino/palette/releases/latest/"
+    },
+    "height": 700,
+    "width": 800,
+    "frame": true,
+    "title-bar-style": "hidden",
+    "resizable": true,
+    "autoPackage": true
+  }
+}

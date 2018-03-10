@@ -1,0 +1,53 @@
+<template name="home">
+  <div class="row">
+    {{#each colors}}
+      {{> color color=color id=_id }}
+    {{/each}}
+  </div>
+  <a href="#" class="float" data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-plus my-float"></i></a>
+  <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form id="newColorForm" onsubmit="return false">
+            <div class="form-group">
+              <label for="color">Color</label>
+              <input id="color" type="text" class="form-control" />
+            </div>
+            <div class="color-thumb"></div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(document).click(function () {
+      $('#color').change();
+    });
+    $(document).mousemove(function () {
+      $('#color').change();
+    });
+    $(document).keyup(function () {
+      $('#color').change();
+    });
+  </script>
+  <script>
+    $(function () {
+      $('#color').colorpicker();
+    });
+  </script>
+</template>
+
+<template name="color">
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <div class="color-container">
+      <div class="color-background" style="background-color: {{color}} !important">
+        <button class="delete-color pull-right"><i class="glyphicon glyphicon-trash"></i></button>
+      </div>
+      <div class="color-label">
+        <p class="color-label-text">{{color}}</p>
+      </div>
+    </div>
+  </div>
+</template>

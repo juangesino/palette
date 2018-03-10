@@ -1,0 +1,84 @@
+.color-container {
+  background-color: white;
+  min-height: 250px;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.color-background {
+  background-color: #0493d3;
+  min-height: 200px;
+  width: 100%
+}
+
+.color-label {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+::selection {
+  background: aquamarine;
+  color: black;
+}
+
+.color-label-text::selection {
+  background: deeppink;
+  color: white;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #615f5f;
+}
+
+.float:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.float:focus {
+  color: white;
+  text-decoration: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.delete-color {
+  background: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  display: none;
+}
+
+.color-container:hover .delete-color{
+  display : block;
+}
+
+.delete-color:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.color-thumb {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: white;
+  margin-bottom: 10px;
+}
