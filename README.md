@@ -10,6 +10,8 @@
 
 [**Download**](https://github.com/juangesino/palette/releases/latest) the `.app` file and move to `Applications`.
 
+Alternatevely, you can download de `.zip` file, uncompress (double click) and move the `.app` to `Applications`.
+
 ## Contribute
 
 See [DEVELOPMENT](https://github.com/juangesino/palette/blob/master/DEVELOPMENT.md).
