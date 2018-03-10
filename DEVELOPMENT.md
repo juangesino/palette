@@ -2,6 +2,7 @@
 
 ## To-Do
 - [x] Add and remove colors
+- [ ] Add splash screen while loading
 - [ ] Export colors CSV
 - [ ] Import colors CSV
 - [ ] Add and remove gradients
@@ -43,26 +44,29 @@
 
 0. **Run**
 
-    While in repository directory run:
+    While in the repository directory run:
 
     ```sh
-    > meteor run --settings settings.json
+    > electrify
     ```
 
-    Load browser and go to [http://localhost:3000/](http://localhost:3000/)
-
-    Or navigate to `.meteor-electron/darwin-x64/builds/` to find the desktop build.
-
+    A new desktop window will open, but you can also head over to [localhost:3000]() for an online version.
 
 
 ## Build
 
-Builds are automatically generated at `.meteor-electron/darwin-x64/builds/` and packaged builds are generated at `.meteor-electron/darwin-x64/final/`.
+To package the app run:
+
+```
+> electrify package -- --icon=private/icon.png.icns --ignore=.meteor/local
+```
+
+**Note**: Electrify doesn't ignore its own `.dist` directory when packaging the app ([#68](https://github.com/arboleya/electrify/issues/68)). Before packaging, remove this directory.
 
 ## Built With
 
 * [Meteor](https://www.meteor.com/)
-* [meteor-electron](https://github.com/electron-webapps/meteor-electron)
+* [Electrify](https://github.com/arboleya/electrify)
 * [Bootstrap](http://getbootstrap.com/)
 * [jQuery](https://jquery.com/)
 

@@ -8,11 +8,9 @@
 
 **macOS**
 
-[**Download**](https://github.com/juangesino/palette/releases/latest) the `.app` file and move to `Applications`.
+[**Download**](https://github.com/juangesino/palette/releases/latest) the latest `.zip`, uncompress (double click) and move to `Applications`.
 
-Alternatevely, you can download de `.zip` file, uncompress (double click) and move the `.app` file to `Applications`.
-
-**Note**: If you get an error message saying the application `can’t be opened because it is from an unidentified developer`, simply right click the application and click open. Confirm you want to open the application and you're good to go.
+**Note**: If you get an error message saying the application `can’t be opened because it is from an unidentified developer`, simply right click the application and click open. Confirm you want to open the application and you're good to go (only needs to be done the first time).
 
 ## Contribute
 
